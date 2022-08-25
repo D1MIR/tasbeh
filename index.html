@@ -5,30 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .btn{
-            width: 100px;
-            height: 40px;
-            border-radius: 20px;
-            border: none;
-            background-color: crimson;
-            color: #fff;
-        }
-    </style>
+    <link rel="stylesheet" href="./counter.css">
 </head>
 <body>
-    <h1>Function and onclick</h1>    
+    
+    <div class="tasbeh">
+        <h1 id="son">0</h1>
+        <button onclick="count()" class="start"></button>
+        <button onclick="rest()" class="reset"></button>
+        <button onclick="minesu()" class="reset bi">-1</button>
+    </div>
 
 
-    <button class="btn" onclick="call()">free USD</button>
-    <br>
-    <br>
-    <button class="btn" onclick="counter()">free USD</button>
-
-
-    <h2 id="number"></h2>
-
-
-    <script src="./app.js"></script>
+    <script src="./counter.js"></script>
 </body>
 </html>
